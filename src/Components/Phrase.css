@@ -1,0 +1,16 @@
+.phrase__container {
+  width: 80%;
+  height: 350px;
+  margin: 0 auto;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  border-top: 1px solid #000;
+  margin-bottom: 100vh;
+}
+.phrase {
+  font-size: 2.3rem;
+  text-align: center;
+}

@@ -1,0 +1,54 @@
+.aboutUs {
+  width: 100%;
+  background: #fff;
+  padding-top: 5rem;
+}
+.aboutUs__title {
+  text-align: center;
+  font-size: 3.5rem;
+  letter-spacing: 0.2rem;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+}
+.aboutUs__container {
+  /* height: 70vh; */
+  width: 80%;
+  padding: 1rem;
+  margin: 0 auto;
+  display: grid;
+  column-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  overflow: hidden;
+  justify-content: center;
+}
+.aboutUs__objectives {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1rem;
+  align-self: flex-start;
+  height: 100%;
+}
+.aboutUs__mission,
+.aboutUs__vision {
+  overflow: hidden;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+.aboutUs__mission__title {
+  font-size: 2.5rem;
+  letter-spacing: 0.1rem;
+}
+.aboutUs__paragraph {
+  font-size: 1.8rem;
+  overflow: hidden;
+  margin-top: 0.6rem;
+}
+.aboutUs__img__container {
+  text-align: center;
+  transition: all 1s ease-in-out;
+}
+.aboutUs__img__container:hover {
+  transition: all 1s ease-in-out;
+  transform: scale(0.99);
+}
