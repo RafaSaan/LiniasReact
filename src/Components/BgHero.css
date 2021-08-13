@@ -1,6 +1,6 @@
 .hero__container {
   width: 100%;
-  height: 100vh;
+  height: 97vh;
   object-fit: contain;
   box-shadow: inset 0 0 0 1080px rgba(0, 0, 0, 0.7);
   display: flex;
